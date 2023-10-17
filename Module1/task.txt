@@ -1,0 +1,35 @@
+1. Display FirstName According to Ascending order.
+
+-> SELECT * FROM info ORDER BY first_name ASC; 
+
+2. Display User Detail According to Lower to Higher Salary
+
+-> SELECT * FROM info empo ORDER by salary ASC 
+
+3. Display Firstname Whose Firstname Starts with J.[]
+
+-> SELECT * FROM info WHERE first_name LIKE 'j' ;     *
+
+4. Display All Employee Whose Designation is CLERK
+
+-> SELECT * FROM info WHERE designation = 'clerk ' ; 
+
+5. Remove Records which is belong from HR ANALYST category
+
+->  DELETE FROM info WHERE designation = 'hr analyst' ;
+
+6. Display User Detail Whose Department No. is 40
+
+-> SELECT * FROM info WHERE deptno = '40' ;
+
+7. Display Max salary from Table
+
+-> SELECT MAX(salary) FROM info
+
+8. Display Minimum Salary from Table
+
+-> SELECT MIN(salary) FROM info
+
+9. Display Total Salary of Employee
+
+-> SELECT SUM(salary) FROM info
